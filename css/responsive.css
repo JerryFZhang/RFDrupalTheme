@@ -10,6 +10,7 @@
 	.sidr.left { left: -320px; right: auto; }
 	#sidr-main a { color: #707070; }
 	#sidr-main a:hover { color: #fff; }
+	#sidr-main ul a { display: block; border-bottom: 1px solid #333; padding: 7px 0; font-weight: 400; }
 	#sidr-main ul li ul { margin-left: 0; margin: 0; }
 	#sidr-main ul li ul li a { padding-left: 10px; }
 	#sidr-main ul li ul li li a { padding-left: 20px; }
