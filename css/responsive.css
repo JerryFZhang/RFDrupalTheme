@@ -1,5 +1,6 @@
 /* MObile Menu
 ================================================== */
+<<<<<<< HEAD
 a#navigation-toggle {
 	z-index         : 9;
 	position        : relative;
@@ -102,6 +103,27 @@ a#navigation-toggle .fa {
 /*
 Smaller Then Desktop
 */
+=======
+	a#navigation-toggle { height: 55px; line-height: 55px; margin: 0; float: left; cursor: pointer; color: #888; padding-left: 35px; font-weight: 600; position: relative; z-index: 9; text-decoration: none !important; font-size: 1.1em; }
+	a#navigation-toggle .fa { margin-right: 10px; }
+	#navigation-toggle { color: #8b8b8b; }
+	#navigation-toggle:hover { color: #000; }
+	#sidr-main { font-family: 'Helvetica Neue', Helvetica, Arial; position: absolute; position: fixed; top: 0; height: 100%; z-index: 999999; width: 320px; overflow-x: none; overflow-y: auto;font-size: 13px; background: #222; color: #fff; }
+	#sidr-main { padding: 70px 30px 30px; font-size: 16px; box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; }
+	.sidr.right { left: auto; right: -320px; }
+	.sidr.left { left: -320px; right: auto; }
+	#sidr-main a { color: #707070; }
+	#sidr-main a:hover { color: #fff; }
+	#sidr-main ul li ul { margin-left: 0; margin: 0; }
+	#sidr-main ul li ul li a { padding-left: 10px; }
+	#sidr-main ul li ul li li a { padding-left: 20px; }
+	#sidr-main ul li ul li li li a { padding-left: 30px; }
+	#sidr-main ul li ul li a:before { content: '\f0da'; display: inline-block; -webkit-font-smoothing: antialiased; font-family: 'FontAwesome'; color: #888; margin-right: 10px; }
+	.sidr-class-toggle-sidr-close:before { position: absolute; top:30px; left: 30px; content: '\f00d'; font-family: 'FontAwesome'; color: #fff; margin: 0; }
+	
+/* Smaller Then Desktop
+================================================== */
+>>>>>>> parent of 36521d8... Unknown Change
 @media only screen and (max-width: 959px) {
 	#site-navigation #main-menu >  : ;
  a#navigation-toggle {
