@@ -34,7 +34,7 @@ a#navigation-toggle .fa {
 
 #sidr-main {
 	z-index     : 999999;
-	position    : sticky;
+	position    : static;
 	position    : absolute;
 	top         : 0;
 	width       : 320px;
@@ -56,13 +56,13 @@ a#navigation-toggle .fa {
 }
 
 .sidr.right {
- right : -320px;
+ right : 320px;
  left  : auto;
 }
 
 .sidr.left {
  right : auto;
- left  : -320px;
+ left  : 320px;
 }
 
 #sidr-main a {
