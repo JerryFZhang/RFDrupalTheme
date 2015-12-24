@@ -329,7 +329,7 @@ body {
  color                  : #777;
  font                   : 14px/1.6 'Open Sans', "Helvetica", Arial;
  background             : #f6f6f6;
- -webkit-font-smoothing : antialiased;
+ -webkit-font-smoothing : auto;
 }
 body a {
  color           : #00BFA5;
@@ -913,12 +913,11 @@ h1.page-title {
 /* Footer
 ================================================== */
 #footer-wrap {
- position   : absolute;
- bottom     : 0px;
+ bottom     : 32px;
  width      : 100%;
  padding    : 30px 0 0;
  background : #222;
- position: relative;
+ position: inherit;
 }
 #footer-wrap input[type="search"],
 #footer-wrap input[type="text"] {
@@ -961,7 +960,7 @@ h1.page-title {
  border-top : 1px solid #333;
 }
 #copyright-wrap {
- position   : relative;
+ position   : inherit;
  bottom     : 0;
  width      : 100%;
  padding    : 5px 0;
