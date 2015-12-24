@@ -336,7 +336,7 @@ body a {
  text-decoration : none;
 }
 #main {
- padding : 40px 0;
+ padding : 45px 0;
 }
 .container {
  width              : 980px;
@@ -534,7 +534,7 @@ hr {
 }
 #header {
  position   : relative;
- padding    : 30px 0;
+ padding    : 10px 0;
  text-align : left;
 }
 /*logo*/
@@ -908,7 +908,7 @@ h1.page-title {
 /* Footer
 ================================================== */
 #footer-wrap {
- padding    : 50px 0 0;
+ padding    : 30px 0 0;
  background : #222;
 }
 #footer-wrap input[type="search"],
@@ -952,7 +952,7 @@ h1.page-title {
  border-top : 1px solid #333;
 }
 #copyright-wrap {
- padding    : 20px 0;
+ padding    : 5px 0;
  color      : #888;
  text-align : center;
  background : #111;
