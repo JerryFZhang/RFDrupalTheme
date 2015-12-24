@@ -1,6 +1,6 @@
 About Venture Theme
 ====================
-Venture Theme is a Drupal 7 theme. The theme is not dependent on any 
+Venture Theme is a Drupal 7 theme. The theme is not dependent on any
 core theme. Its very light weight for fast loading with modern look.
   Simple and clean design
   Drupal standards compliant
@@ -26,5 +26,5 @@ Slideshow photos by http://www.flickr.com/photos/tescho/
 
 Help and Support Us
 =====================
-Please consider a small donation 
+Please consider a small donation
 Paypal ID : saran@devsaran.com
