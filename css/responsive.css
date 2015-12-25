@@ -1,4 +1,4 @@
-/* MObile Menu
+/* Mobile Menu
 ================================================== */
 a#navigation-toggle {
 	z-index         : 9;
@@ -111,6 +111,15 @@ Smaller Then Desktop
   display : list-item;
 	/* Changed from none */
  }
+ .container {
+  max-width : 85%;
+ }
+ .left-content {
+  width : 60%;
+ }
+ .sidebar-container {
+  width : 36%;
+ }
 }
 
 /*
@@ -132,7 +141,6 @@ Tablet (Portrait)
 Mobile (Portrait & Landscape)
 */
 @media only screen and (max-width: 767px) {
-	.sidebar-container,  : ;
  .container {
   width     : 90%;
   max-width : 480px;
