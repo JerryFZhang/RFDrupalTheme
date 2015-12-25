@@ -148,8 +148,6 @@ select {
  display            : block;
  float              : left;
  margin             : 0 0 2% 1.6%;
- -webkit-box-sizing : border-box;
- -moz-box-sizing    : border-box;
  box-sizing         : border-box;
  -moz-box-sizing    : border-box;
  -webkit-box-sizing : border-box;
@@ -331,7 +329,7 @@ body {
  color                  : #777;
  font                   : 14px/1.6 'Open Sans', "Helvetica", Arial;
  background             : #f6f6f6;
- -webkit-font-smoothing : auto;
+ -webkit-font-smoothing : auto; /* Changed form auto because its a darker color */
 }
 body a {
  color           : #00BFA5;
@@ -341,7 +339,7 @@ body a {
  padding : 100px 0;
 }
 .container {
- width              : 980px;
+ width              : inherit;
  margin             : 0 auto;
  -webkit-box-sizing : border-box;
  -moz-box-sizing    : border-box;
@@ -353,7 +351,7 @@ body a {
 }
 .sidebar-container {
  width : 300px;
- float : right;
+ float : left;
 }
 /* Commons
 ================================================== */
@@ -713,6 +711,7 @@ hr {
 ================================================== */
 .sidebar-container .block {
  margin-bottom : 30px;
+ float: left;
 }
 .sidebar-container .block > h2 {
  margin    : 0 0 10px;
@@ -913,6 +912,7 @@ h1.page-title {
 /* Footer
 ================================================== */
 #footer-wrap {
+ position   : inherit;
  bottom     : 32px;
  width      : 100%;
  padding    : 30px 0 0;
@@ -1014,6 +1014,8 @@ fieldset {
  border-radius         : 4px;
  background            : #ffffff;
  -webkit-border-radius : 4px;
+ -moz-border-radius    : 4px;
+ -khtml-border-radius  : 4px;
 }
 
 .fieldset-wrapper {
@@ -1030,6 +1032,11 @@ fieldset {
  border-top-left-radius          : 0;
  border-top-right-radius         : 0;
  -moz-border-radius-topleft      : 0;
+ -webkit-border-top-right-radius : 0;
+ -webkit-border-top-left-radius  : 0;
+ -khtml-border-radius-topright   : 0;
+ -moz-border-radius-topright     : 0;
+ -khtml-border-radius-topleft    : 0;
 }
 
 .filter-help a {
@@ -1053,6 +1060,8 @@ fieldset.collapsed {
  border-radius         : 0;
  background            : transparent;
  -webkit-border-radius : 0;
+ -moz-border-radius    : 0;
+ -khtml-border-radius  : 0;
 }
 
 fieldset legend {
@@ -1071,11 +1080,19 @@ fieldset legend {
  line-height                     : 2;
  background                      : #dbdbdb;
  -webkit-border-top-left-radius  : 4px;
+ -webkit-border-top-right-radius : 4px;
+ -moz-border-radius-topright     : 4px;
+ -khtml-border-radius-topright   : 4px;
+ text-indent                     : 10px;
+ -moz-border-radius-topleft      : 4px;
+ -khtml-border-radius-topleft    : 4px;
 }
 
 fieldset.collapsed legend {
  border-radius         : 4px;
  -webkit-border-radius : 4px;
+ -moz-border-radius    : 4px;
+ -khtml-border-radius  : 4px;
 }
 
 fieldset .fieldset-wrapper {
@@ -1146,12 +1163,19 @@ textarea.form-textarea {
  width                 : 100%;
  border-radius         : 4px;
  -webkit-border-radius : 4px;
+ -moz-border-radius    : 4px;
+ -khtml-border-radius  : 4px;
+ box-sizing            : border-box;
+ -webkit-box-sizing    : border-box;
+ -moz-box-sizing       : border-box;
 }
 
 .contact-form #edit-mail {
  width                 : 100%;
  border-radius         : 4px;
  -webkit-border-radius : 4px;
+ -moz-border-radius    : 4px;
+ -khtml-border-radius  : 4px;
  box-sizing            : border-box;
  -webkit-box-sizing    : border-box;
  -moz-box-sizing       : border-box;
@@ -1161,6 +1185,11 @@ textarea.form-textarea {
  width                 : 100%;
  border-radius         : 4px;
  -webkit-border-radius : 4px;
+ -moz-border-radius    : 4px;
+ -khtml-border-radius  : 4px;
+ box-sizing            : border-box;
+ -webkit-box-sizing    : border-box;
+ -moz-box-sizing       : border-box;
 }
 
 .contact-form #edit-message {
@@ -1168,8 +1197,14 @@ textarea.form-textarea {
  border-top-left-radius          : 4px;
  border-top-right-radius         : 4px;
  -khtml-border-top-left-radius   : 4px;
- -moz-border-radius-topleft      : 4px;
  -moz-border-radius-topright     : 4px;
+ -webkit-box-sizing              : border-box;
+ -moz-border-radius-topleft      : 4px;
+ -webkit-border-top-right-radius : 4px;
+ -webkit-border-top-left-radius  : 4px;
+ -moz-box-sizing                 : border-box;
+ box-sizing                      : border-box;
+ -khtml-border-top-right-radius  : 4px;
 }
 
 .contact-form .resizable-textarea .grippie {
@@ -1177,8 +1212,14 @@ textarea.form-textarea {
  border-bottom-right-radius         : 4px;
  border-bottom-left-radius          : 4px;
  -khtml-border-bottom-left-radius   : 4px;
- -moz-border-radius-bottomleft      : 4px;
  -moz-border-radius-bottomright     : 4px;
+ -moz-box-sizing                    : border-box;
+ -moz-border-radius-bottomleft      : 4px;
+ -webkit-border-bottom-right-radius : 4px;
+ -webkit-border-bottom-left-radius  : 4px;
+ box-sizing                         : border-box;
+ -webkit-box-sizing                 : border-box;
+ -khtml-border-bottom-right-radius  : 4px;
 }
 
 /* Comment form */
@@ -1193,6 +1234,8 @@ textarea.form-textarea {
  margin                : 0;
  border-radius         : 4px;
  -webkit-border-radius : 4px;
+ -moz-border-radius    : 4px;
+ -khtml-border-radius  : 4px;
 }
 
 .comment-form .form-type-textarea label {
@@ -1227,6 +1270,8 @@ textarea.form-textarea {
  width              : 100%;
  margin             : 0;
  box-sizing         : border-box;
+ -webkit-box-sizing : border-box;
+ -moz-box-sizing    : border-box;
 }
 
 .comment-form .form-item .description {
@@ -1243,6 +1288,11 @@ textarea.form-textarea {
  border-top-left-radius          : 4px;
  border-top-right-radius         : 4px;
  -khtml-border-radius-topleft    : 4px;
+ -webkit-border-top-right-radius : 4px;
+ -webkit-border-top-left-radius  : 4px;
+ -khtml-border-radius-topright   : 4px;
+ -moz-border-radius-topright     : 4px;
+ -moz-border-radius-topleft      : 4px;
 }
 
 .comment-form .text-format-wrapper .form-item,
@@ -1320,6 +1370,12 @@ input[type="submit"] {
  background-image      : linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
  background-image      : -moz-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
  -o-box-shadow         : inset 0 1px 0 0 white;
+ -moz-border-radius    : 6px;
+ progid                : DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E3E3E3');
+ -o-border-radius      : 6px;
+ -khtml-border-radius  : 6px;
+ -ms-border-radius     : 6px;
+ -webkit-border-radius : 6px;
 }
 
 button:hover,
@@ -1339,6 +1395,12 @@ input[type="submit"]:hover {
  background-image      : -webkit-gradient(linear, left top, left bottom, color-stop(0, #DBDBDB), color-stop(1, #F2F2F2));
  cursor                : pointer;
  -moz-border-radius    : 6px;
+ -o-border-radius      : 6px;
+ -khtml-border-radius  : 6px;
+ -o-box-shadow         : inset 0 1px 0 0 white;
+ -ms-border-radius     : 6px;
+ -webkit-border-radius : 6px;
+ progid                : DXImageTransform.Microsoft.gradient(startColorstr='#DBDBDB', endColorstr='#F2F2F2');
 }
 
 button.full-width,
@@ -1817,6 +1879,7 @@ ul.links.inline {
  font-style  : normal;
  font-weight : normal;
  src         : url('font/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.3') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.3') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+ src         : url('font/fontawesome-webfont.eot?v=4.0.3');
 }.fa {
  display                 : inline-block;
  font-family             : FontAwesome;
@@ -1824,6 +1887,7 @@ ul.links.inline {
  font-weight             : normal;
  line-height             : 1;
  -moz-osx-font-smoothing : grayscale;
+ -webkit-font-smoothing  : antialiased;
 }.fa-lg {
  vertical-align : -15%;
  font-size      : 1.3333333333333333em;
@@ -1868,6 +1932,8 @@ ul.links.inline {
 }.fa-spin {
  animation         : spin 2s infinite linear;
  -o-animation      : spin 2s infinite linear;
+ -moz-animation    : spin 2s infinite linear;
+ -webkit-animation : spin 2s infinite linear;
 }@-moz-keyframes spin {
  0% {
    -moz-transform : rotate(0deg);
@@ -1910,6 +1976,7 @@ ul.links.inline {
  -ms-transform     : rotate(90deg);
  -webkit-transform : rotate(90deg);
  -o-transform      : rotate(90deg);
+ progid            : DXImageTransform.Microsoft.BasicImage(rotation=1);
 }.fa-rotate-180 {
  filter            : ;
  transform         : rotate(180deg);
@@ -1917,6 +1984,7 @@ ul.links.inline {
  -ms-transform     : rotate(180deg);
  -webkit-transform : rotate(180deg);
  -o-transform      : rotate(180deg);
+ progid            : DXImageTransform.Microsoft.BasicImage(rotation=2);
 }.fa-rotate-270 {
  filter            : ;
  transform         : rotate(270deg);
@@ -1924,6 +1992,7 @@ ul.links.inline {
  -ms-transform     : rotate(270deg);
  -webkit-transform : rotate(270deg);
  -o-transform      : rotate(270deg);
+ progid            : DXImageTransform.Microsoft.BasicImage(rotation=3);
 }.fa-flip-horizontal {
  filter            : ;
  transform         : scale(-1,1);
@@ -1931,6 +2000,7 @@ ul.links.inline {
  -ms-transform     : scale(-1,1);
  -webkit-transform : scale(-1,1);
  -o-transform      : scale(-1,1);
+ progid            : DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);
 }.fa-flip-vertical {
  filter            : ;
  transform         : scale(1,-1);
@@ -1938,6 +2008,7 @@ ul.links.inline {
  -ms-transform     : scale(1,-1);
  -webkit-transform : scale(1,-1);
  -o-transform      : scale(1,-1);
+ progid            : DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);
 }.fa-stack {
  display        : inline-block;
  position       : relative;
