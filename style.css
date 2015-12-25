@@ -151,6 +151,8 @@ select {
  -webkit-box-sizing : border-box;
  -moz-box-sizing    : border-box;
  box-sizing         : border-box;
+ -moz-box-sizing    : border-box;
+ -webkit-box-sizing : border-box;
 }
 /*percent grid*/
 .span_1_of_1 {
@@ -341,9 +343,9 @@ body a {
 .container {
  width              : 980px;
  margin             : 0 auto;
- box-sizing         : border-box;
- -moz-box-sizing    : border-box;
  -webkit-box-sizing : border-box;
+ -moz-box-sizing    : border-box;
+ box-sizing         : border-box;
 }
 .left-content {
  width : 640px;
@@ -534,8 +536,6 @@ hr {
  border-bottom : 1px solid #e4e4e4;
  box-shadow    : 0 0 3px rgba(0,0,0,0.1);
  background    : #fff;
-               : ;
-               : ;
 }
 #header {
  position   : relative;
@@ -917,7 +917,6 @@ h1.page-title {
  width      : 100%;
  padding    : 30px 0 0;
  background : #222;
- position: inherit;
 }
 #footer-wrap input[type="search"],
 #footer-wrap input[type="text"] {
@@ -1014,8 +1013,6 @@ fieldset {
  border                : 1px solid #cccccc;
  border-radius         : 4px;
  background            : #ffffff;
- -khtml-border-radius  : 4px;
- -moz-border-radius    : 4px;
  -webkit-border-radius : 4px;
 }
 
@@ -1032,11 +1029,6 @@ fieldset {
  padding                         : 1em 0 0.2em;
  border-top-left-radius          : 0;
  border-top-right-radius         : 0;
- -khtml-border-radius-topleft    : 0;
- -moz-border-radius-topright     : 0;
- -khtml-border-radius-topright   : 0;
- -webkit-border-top-left-radius  : 0;
- -webkit-border-top-right-radius : 0;
  -moz-border-radius-topleft      : 0;
 }
 
@@ -1060,8 +1052,6 @@ fieldset {
 fieldset.collapsed {
  border-radius         : 0;
  background            : transparent;
- -khtml-border-radius  : 0;
- -moz-border-radius    : 0;
  -webkit-border-radius : 0;
 }
 
@@ -1080,19 +1070,11 @@ fieldset legend {
  text-shadow                     : 0 1px 0 #fff;
  line-height                     : 2;
  background                      : #dbdbdb;
- -khtml-border-radius-topleft    : 4px;
- -moz-border-radius-topleft      : 4px;
- text-indent                     : 10px;
- -khtml-border-radius-topright   : 4px;
- -moz-border-radius-topright     : 4px;
- -webkit-border-top-right-radius : 4px;
  -webkit-border-top-left-radius  : 4px;
 }
 
 fieldset.collapsed legend {
  border-radius         : 4px;
- -khtml-border-radius  : 4px;
- -moz-border-radius    : 4px;
  -webkit-border-radius : 4px;
 }
 
@@ -1163,33 +1145,21 @@ textarea.form-textarea {
 .contact-form #edit-name {
  width                 : 100%;
  border-radius         : 4px;
- -moz-box-sizing       : border-box;
- -webkit-box-sizing    : border-box;
- box-sizing            : border-box;
- -khtml-border-radius  : 4px;
- -moz-border-radius    : 4px;
  -webkit-border-radius : 4px;
 }
 
 .contact-form #edit-mail {
  width                 : 100%;
  border-radius         : 4px;
- -moz-box-sizing       : border-box;
- -webkit-box-sizing    : border-box;
- box-sizing            : border-box;
- -khtml-border-radius  : 4px;
- -moz-border-radius    : 4px;
  -webkit-border-radius : 4px;
+ box-sizing            : border-box;
+ -webkit-box-sizing    : border-box;
+ -moz-box-sizing       : border-box;
 }
 
 .contact-form #edit-subject {
  width                 : 100%;
  border-radius         : 4px;
- -moz-box-sizing       : border-box;
- -webkit-box-sizing    : border-box;
- box-sizing            : border-box;
- -khtml-border-radius  : 4px;
- -moz-border-radius    : 4px;
  -webkit-border-radius : 4px;
 }
 
@@ -1197,14 +1167,8 @@ textarea.form-textarea {
  width                           : 100%;
  border-top-left-radius          : 4px;
  border-top-right-radius         : 4px;
- -moz-box-sizing                 : border-box;
- -khtml-border-top-right-radius  : 4px;
- box-sizing                      : border-box;
  -khtml-border-top-left-radius   : 4px;
- -webkit-border-top-left-radius  : 4px;
- -webkit-border-top-right-radius : 4px;
  -moz-border-radius-topleft      : 4px;
- -webkit-box-sizing              : border-box;
  -moz-border-radius-topright     : 4px;
 }
 
@@ -1212,14 +1176,8 @@ textarea.form-textarea {
  width                              : 100%;
  border-bottom-right-radius         : 4px;
  border-bottom-left-radius          : 4px;
- box-sizing                         : border-box;
- -khtml-border-bottom-right-radius  : 4px;
- -webkit-box-sizing                 : border-box;
  -khtml-border-bottom-left-radius   : 4px;
- -webkit-border-bottom-left-radius  : 4px;
- -webkit-border-bottom-right-radius : 4px;
  -moz-border-radius-bottomleft      : 4px;
- -moz-box-sizing                    : border-box;
  -moz-border-radius-bottomright     : 4px;
 }
 
@@ -1234,8 +1192,6 @@ textarea.form-textarea {
 .comment-form input {
  margin                : 0;
  border-radius         : 4px;
- -khtml-border-radius  : 4px;
- -moz-border-radius    : 4px;
  -webkit-border-radius : 4px;
 }
 
@@ -1270,8 +1226,6 @@ textarea.form-textarea {
  display            : block;
  width              : 100%;
  margin             : 0;
- -moz-box-sizing    : border-box;
- -webkit-box-sizing : border-box;
  box-sizing         : border-box;
 }
 
@@ -1288,11 +1242,6 @@ textarea.form-textarea {
 .comment-form .form-textarea {
  border-top-left-radius          : 4px;
  border-top-right-radius         : 4px;
- -moz-border-radius-topleft      : 4px;
- -moz-border-radius-topright     : 4px;
- -khtml-border-radius-topright   : 4px;
- -webkit-border-top-left-radius  : 4px;
- -webkit-border-top-right-radius : 4px;
  -khtml-border-radius-topleft    : 4px;
 }
 
@@ -1370,12 +1319,6 @@ input[type="submit"] {
  background-image      : -o-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
  background-image      : linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
  background-image      : -moz-linear-gradient(top, #FFFFFF 0%, #E3E3E3 100%);
- -webkit-border-radius : 6px;
- -ms-border-radius     : 6px;
- -khtml-border-radius  : 6px;
- -o-border-radius      : 6px;
- progid                : DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#E3E3E3');
- -moz-border-radius    : 6px;
  -o-box-shadow         : inset 0 1px 0 0 white;
 }
 
@@ -1395,12 +1338,6 @@ input[type="submit"]:hover {
  background-image      : linear-gradient(top, #DBDBDB 0%, #F2F2F2 100%);
  background-image      : -webkit-gradient(linear, left top, left bottom, color-stop(0, #DBDBDB), color-stop(1, #F2F2F2));
  cursor                : pointer;
- progid                : DXImageTransform.Microsoft.gradient(startColorstr='#DBDBDB', endColorstr='#F2F2F2');
- -webkit-border-radius : 6px;
- -ms-border-radius     : 6px;
- -o-box-shadow         : inset 0 1px 0 0 white;
- -khtml-border-radius  : 6px;
- -o-border-radius      : 6px;
  -moz-border-radius    : 6px;
 }
 
@@ -1879,7 +1816,6 @@ ul.links.inline {
  font-family : 'FontAwesome';
  font-style  : normal;
  font-weight : normal;
- src         : url('font/fontawesome-webfont.eot?v=4.0.3');
  src         : url('font/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.3') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.3') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
 }.fa {
  display                 : inline-block;
@@ -1887,7 +1823,6 @@ ul.links.inline {
  font-style              : normal;
  font-weight             : normal;
  line-height             : 1;
- -webkit-font-smoothing  : antialiased;
  -moz-osx-font-smoothing : grayscale;
 }.fa-lg {
  vertical-align : -15%;
@@ -1932,8 +1867,6 @@ ul.links.inline {
  margin-left : .3em;
 }.fa-spin {
  animation         : spin 2s infinite linear;
- -webkit-animation : spin 2s infinite linear;
- -moz-animation    : spin 2s infinite linear;
  -o-animation      : spin 2s infinite linear;
 }@-moz-keyframes spin {
  0% {
@@ -1976,7 +1909,6 @@ ul.links.inline {
  -moz-transform    : rotate(90deg);
  -ms-transform     : rotate(90deg);
  -webkit-transform : rotate(90deg);
- progid            : DXImageTransform.Microsoft.BasicImage(rotation=1);
  -o-transform      : rotate(90deg);
 }.fa-rotate-180 {
  filter            : ;
@@ -1984,7 +1916,6 @@ ul.links.inline {
  -moz-transform    : rotate(180deg);
  -ms-transform     : rotate(180deg);
  -webkit-transform : rotate(180deg);
- progid            : DXImageTransform.Microsoft.BasicImage(rotation=2);
  -o-transform      : rotate(180deg);
 }.fa-rotate-270 {
  filter            : ;
@@ -1992,7 +1923,6 @@ ul.links.inline {
  -moz-transform    : rotate(270deg);
  -ms-transform     : rotate(270deg);
  -webkit-transform : rotate(270deg);
- progid            : DXImageTransform.Microsoft.BasicImage(rotation=3);
  -o-transform      : rotate(270deg);
 }.fa-flip-horizontal {
  filter            : ;
@@ -2000,7 +1930,6 @@ ul.links.inline {
  -moz-transform    : scale(-1,1);
  -ms-transform     : scale(-1,1);
  -webkit-transform : scale(-1,1);
- progid            : DXImageTransform.Microsoft.BasicImage(rotation=0,mirror=1);
  -o-transform      : scale(-1,1);
 }.fa-flip-vertical {
  filter            : ;
@@ -2008,7 +1937,6 @@ ul.links.inline {
  -moz-transform    : scale(1,-1);
  -ms-transform     : scale(1,-1);
  -webkit-transform : scale(1,-1);
- progid            : DXImageTransform.Microsoft.BasicImage(rotation=2,mirror=1);
  -o-transform      : scale(1,-1);
 }.fa-stack {
  display        : inline-block;
