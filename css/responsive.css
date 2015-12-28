@@ -95,7 +95,17 @@
  font-family : 'FontAwesome';
 }
 
-/* Smaller Then Desktop
+.container {
+ max-width : 768px;
+}
+.left-content {
+ width : 60%;
+}
+.sidebar-container {
+ width : 36%;
+}
+
+/* Smaller Than Desktop
 ================================================== */
 @media only screen and (max-width: 959px) {
 	#site-navigation #main-menu > ul{
@@ -104,7 +114,6 @@
  a#navigation-toggle {
    display : block;
  }
-
 }
 /* Tablet (Portrait)
 ================================================== */
