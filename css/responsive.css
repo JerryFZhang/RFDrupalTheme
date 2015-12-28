@@ -98,6 +98,15 @@ a#navigation-toggle .fa {
  color       : #fff;
  font-family : 'FontAwesome';
 }
+.container {
+ max-width : 85%;
+}
+.left-content {
+ width : 60%;
+}
+.sidebar-container {
+ width : 36%;
+}
 
 /*
 Smaller Then Desktop
