@@ -116,18 +116,8 @@ Smaller Then Desktop
  a#navigation-toggle {
   display : block;
  }
- ul {
-  display : list-item;
-	/* Changed from none */
- }
- .container {
-  max-width : 85%;
- }
- .left-content {
-  width : 60%;
- }
- .sidebar-container {
-  width : 36%;
+ #site-navigation #main-menu > ul {
+	 display: none;
  }
 }
 
@@ -136,24 +126,21 @@ Tablet (Portrait)
 */
 
 @media only screen and (min-width: 768px) and (max-width: 959px) {
- .container {
-  max-width : 85%;
- }
- .left-content {
-  width : 60%;
- }
- .sidebar-container {
-  width : 36%;
- }
+	.container { max-width: 85%; }
+	.left-content { width: 60%; }
+	.sidebar-container { width: 36%; }
 }
 /*
 Mobile (Portrait & Landscape)
 */
 @media only screen and (max-width: 767px) {
+
  .container {
   width     : 90%;
   max-width : 480px;
  }
+ .sidebar-container,
+
 	.left-content {
 		width : 100%;
  }
