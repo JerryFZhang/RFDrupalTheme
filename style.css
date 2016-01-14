@@ -375,7 +375,7 @@ blockquote {
  margin-bottom : 30px;
  padding-left  : 50px;
  color         : #555;
- font-family   : serif;
+font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
  font-size     : 1.4em;
  line-height   : 1.5em;
  background    : url("images/quote.png") left 4px no-repeat;
@@ -398,7 +398,7 @@ pre {
  margin-bottom : 30px;
  padding       : 20px;
  color         : #666;
- font-family   : serif;
+font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
  white-space   : pre-wrap;
  white-space   : -moz-pre-wrap;
  white-space   : -pre-wrap;
@@ -415,31 +415,31 @@ address {
 ================================================== */
 ol, ul {
  margin : 0 0 1em 1.5em;
-     font-family: serif;
+     font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 ul {
  list-style : disc;
-     font-family: serif;
+     font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 ol {
  list-style-type : decimal;
-     font-family: serif;
+     font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 ol ol {
  list-style : upper-alpha;
-     font-family: serif;
+     font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 ol ol ol {
  list-style : lower-roman;
-    font-family: serif;
+    font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 ol ol ol ol {
  list-style : lower-alpha;
-     font-family: serif;
+     font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 ol ol, ol ul, ul ol, ul ul {
  margin-bottom : 0;
-     font-family: serif;
+     font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 
 table {
@@ -471,47 +471,47 @@ td {
 ================================================== */
 h1, h2, h3, h4, h5, h6 {
  color       : #444;
- font-family: serif;
+ font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
  font-weight : 600;
  line-height : 1.4em;
 }
 
 h1 {
  margin    : 0 0 20px;
- font-family: sans-serif;
+ font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
  font-size : 1.714em;
 }
 
 h2 {
  font-size : 1.286em;
- font-family: sans-serif;
+ font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
  font-weight: bold;
 }
 
 h3 {
-  font-family: serif;
+  font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
  font-size : 1.286em;
  font-weight: bold;
 }
 
 h4 {
  font-size : 1em;
-   font-family: serif;
+   font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
    font-weight: bold;
 }
 
 h5 {
  font-size : 0.857em;
-   font-family: serif;
+   font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 
 h6 {
  font-size : 0.714em;
-   font-family: serif;
+   font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 p {
  margin : 0 0 20px;
-   font-family: serif;
+   font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
 }
 h1 a, h2 a, h3 a, h4 a {
  color : #000;
@@ -869,7 +869,6 @@ html[xmlns] .slides {
 h1.page-title {
  margin    : 5px 0 10px;
  font-size : 2em;
- 
 }
 
 #content .node-teaser {
@@ -1842,7 +1841,7 @@ ul.links.inline {
 
 #forum .submitted {
  padding     : 0;
- font-family : Lucida Grande, Verdana, Arial, sans-serif;
+     font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
  font-size   : 12px;
  background  : transparent;
 }
@@ -1900,7 +1899,7 @@ ul.links.inline {
  src         : url('font/fontawesome-webfont.eot?v=4.0.3');
 }.fa {
  display                 : inline-block;
- font-family             : serif;
+ font-family: 'Pingfang SC', 'Hiragino Sans GB', 'Microsoft Yahei', 微软雅黑, sans-serif;
  font-style              : normal;
  font-weight             : normal;
  line-height             : 1;
