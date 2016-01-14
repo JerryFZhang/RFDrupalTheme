@@ -415,24 +415,31 @@ address {
 ================================================== */
 ol, ul {
  margin : 0 0 1em 1.5em;
+     font-family: serif;
 }
 ul {
  list-style : disc;
+     font-family: serif;
 }
 ol {
  list-style-type : decimal;
+     font-family: serif;
 }
 ol ol {
  list-style : upper-alpha;
+     font-family: serif;
 }
 ol ol ol {
  list-style : lower-roman;
+    font-family: serif;
 }
 ol ol ol ol {
  list-style : lower-alpha;
+     font-family: serif;
 }
 ol ol, ol ul, ul ol, ul ul {
  margin-bottom : 0;
+     font-family: serif;
 }
 
 table {
@@ -862,6 +869,7 @@ html[xmlns] .slides {
 h1.page-title {
  margin    : 5px 0 10px;
  font-size : 2em;
+ 
 }
 
 #content .node-teaser {
